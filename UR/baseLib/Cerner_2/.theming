@@ -1,0 +1,28 @@
+{
+	"mVersionDependency": {
+		"UR.baseLib.sap_belize": "10.30.7.317431.0",
+		"UR.baseLib": "10.30.7.317431.0",
+		"UR": "10.30.7.317431.0"
+	},
+	"sEntity": "Theme",
+	"sId": "Cerner_2",
+	"sLabel": "Cerner (2)",
+	"oExtends": "UR.baseLib.sap_belize",
+	"aBuildFiles": [
+		"standards",
+		"standards_cozy",
+		"standards_condensed",
+		"standards_legacy"
+	],
+	"aFiles": [
+		"base",
+		"standards",
+		"standards_cozy",
+		"standards_condensed",
+		"standards_legacy"
+	],
+	"sTextDirections": "LTR",
+	"sType": "STANDARD",
+	"sThemability": "PUBLIC",
+	"sReleaseStage": "GENERAL_AVAILABILITY"
+}
