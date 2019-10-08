@@ -1,0 +1,74 @@
+{
+	"mVersionDependency": {
+		"UR.ls.sap_belize": "10.30.7.317431.0",
+		"UR.ls": "10.30.7.317431.0",
+		"UR": "10.30.7.317431.0"
+	},
+	"sEntity": "Theme",
+	"sId": "customTheme",
+	"sLabel": "customTheme",
+	"oExtends": "UR.ls.sap_belize",
+	"aBuildFiles": [
+		"standards",
+		"standards_cozy",
+		"standards_condensed",
+		"standards_legacy"
+	],
+	"aFiles": [
+		"base",
+		"standards",
+		"standards_cozy",
+		"standards_condensed",
+		"standards_legacy",
+		"custom"
+	],
+	"aBundled": [
+		"customTheme--Contrast"
+	],
+	"sTextDirections": "LTR",
+	"sType": "STANDARD",
+	"sThemability": "PUBLIC",
+	"mCssScopes": {
+		"standards": {
+			"sEmbeddingMethod": "APPEND",
+			"aScopes": [
+				{
+					"sLabel": "Condensed",
+					"sSelector": "lsCondensed",
+					"sEmbeddedFile": "standards_condensed",
+					"sEmbeddedCompareFile": "standards"
+				},
+				{
+					"sLabel": "Contrast",
+					"sSelector": "sapContrast",
+					"sThemeIdSuffix": "Contrast",
+					"sThemability": "PUBLIC",
+					"aThemabilityFilter": [
+						"Color"
+					],
+					"sEmbeddedFile": "customTheme--Contrast.standards",
+					"sEmbeddedCompareFile": "standards"
+				}
+			],
+			"sBaseFile": "standards"
+		},
+		"standards_cozy": {
+			"sEmbeddingMethod": "APPEND",
+			"aScopes": [
+				{
+					"sLabel": "Contrast",
+					"sSelector": "sapContrast",
+					"sThemeIdSuffix": "Contrast",
+					"sThemability": "PUBLIC",
+					"aThemabilityFilter": [
+						"Color"
+					],
+					"sEmbeddedFile": "customTheme--Contrast.standards_cozy",
+					"sEmbeddedCompareFile": "standards_cozy"
+				}
+			],
+			"sBaseFile": "standards_cozy"
+		}
+	},
+	"sReleaseStage": "GENERAL_AVAILABILITY"
+}

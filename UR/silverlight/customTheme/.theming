@@ -1,0 +1,32 @@
+{
+	"mVersionDependency": {
+		"UR.silverlight.sap_belize": "10.30.7.317431.0",
+		"UR.silverlight": "10.30.7.317431.0",
+		"UR": "10.30.7.317431.0"
+	},
+	"sEntity": "Theme",
+	"sId": "customTheme",
+	"sLabel": "customTheme",
+	"oExtends": "UR.silverlight.sap_belize",
+	"aBuildFiles": [
+		"standards",
+		"standards_cozy",
+		"standards_condensed",
+		"standards_legacy"
+	],
+	"aFiles": [
+		"base",
+		"standards",
+		"standards_cozy",
+		"standards_condensed",
+		"standards_legacy",
+		"custom"
+	],
+	"aBundled": [
+		"customTheme--Contrast"
+	],
+	"sTextDirections": "LTR",
+	"sType": "STANDARD",
+	"sThemability": "PUBLIC",
+	"sReleaseStage": "GENERAL_AVAILABILITY"
+}

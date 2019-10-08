@@ -21,6 +21,9 @@
 		"standards_condensed",
 		"standards_legacy"
 	],
+	"aBundled": [
+		"customTheme--Contrast"
+	],
 	"sTextDirections": "LTR",
 	"sType": "STANDARD",
 	"sThemability": "PUBLIC",

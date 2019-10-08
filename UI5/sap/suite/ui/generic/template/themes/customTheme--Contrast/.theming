@@ -1,0 +1,17 @@
+{
+	"mVersionDependency": {
+		"UI5.sap/suite/ui/generic/template.sap_belize_plus": "1.71.0",
+		"UI5.sap/suite/ui/generic/template": "1.71.0",
+		"UI5": "1.71.0"
+	},
+	"sEntity": "Theme",
+	"sId": "customTheme--Contrast",
+	"oExtends": "UI5.sap/suite/ui/generic/template.sap_belize_plus",
+	"aBundled": [
+		"customTheme"
+	],
+	"sBuildOptions": "SKIP",
+	"sType": "ABSTRACT",
+	"sThemability": "PRIVATE",
+	"sReleaseStage": "GENERAL_AVAILABILITY"
+}
