@@ -2,22 +2,22 @@
 	"zipInfo": {
 		"creatorName": "Theming Engine",
 		"creatorVersion": "1.45.0",
-		"created": "2019-10-07T09:25:55Z",
+		"created": "2019-10-08T07:16:57Z",
 		"lessVersion": "1.6.3",
 		"compression": "none",
 		"exportMode": "DESIGNTIME"
 	},
 	"contentInfo": {
-		"sourcePath": "https://cerner-health-services-deutschland-gmbh-developmentpaas41485fb6.cfapps.eu10.hana.ondemand.com/comsapuitheming.themedesigner/theming-repository/sap-themes/~v=Base:11.1.11,UR:10.30.7.317431.0,UI5:1.70.0",
+		"sourcePath": "https://cerner-health-services-deutschland-gmbh-developmentpaas41485fb6.cfapps.eu10.hana.ondemand.com/comsapuitheming.themedesigner/theming-repository/sap-themes/~v=Base:11.1.13,UR:10.30.7.317431.0,UI5:1.71.0",
 		"frameworks": {
 			"UR": {
 				"version": "10.30.7.317431.0"
 			},
 			"UI5": {
-				"version": "1.70.0"
+				"version": "1.71.0"
 			},
 			"Base": {
-				"version": "11.1.11"
+				"version": "11.1.13"
 			}
 		},
 		"libraries": {
@@ -25,49 +25,46 @@
 				"version": "10.30.7.317431.0"
 			},
 			"UI5.sap/collaboration": {
-				"version": "1.70.0"
-			},
-			"UI5.sap/f": {
-				"version": "1.70.0"
+				"version": "1.71.0"
 			},
 			"UI5.sap/m": {
-				"version": "1.70.0"
+				"version": "1.71.0"
 			},
 			"UI5.sap/suite/ui/commons": {
-				"version": "1.70.0"
+				"version": "1.71.0"
 			},
 			"UI5.sap/ui/comp": {
-				"version": "1.70.0"
+				"version": "1.71.0"
 			},
 			"UI5.sap/ui/core": {
-				"version": "1.70.0"
+				"version": "1.71.0"
 			},
 			"UI5.sap/ui/fl": {
-				"version": "1.70.0"
+				"version": "1.71.0"
 			},
 			"UI5.sap/ui/layout": {
-				"version": "1.70.0"
+				"version": "1.71.0"
 			},
 			"UI5.sap/ushell": {
-				"version": "1.70.0"
+				"version": "1.71.0"
 			},
 			"UI5.sap/uxap": {
-				"version": "1.70.0"
+				"version": "1.71.0"
 			},
 			"Base.baseLib": {
-				"version": "11.1.11"
+				"version": "11.1.13"
 			}
 		},
 		"themes": {
-			"Cerner_2": {
-				"id": "Cerner_2",
+			"customTheme": {
+				"id": "customTheme",
 				"extends": "sap_belize",
-				"label": "Cerner (2)",
+				"label": "customTheme",
 				"vendor": "",
 				"textDirections": "LTR"
 			},
-			"Cerner_2--Contrast": {
-				"id": "Cerner_2--Contrast",
+			"customTheme--Contrast": {
+				"id": "customTheme--Contrast",
 				"extends": "sap_belize_plus",
 				"label": "",
 				"vendor": "",
